@@ -54,21 +54,21 @@
       <p class="h-10"></p>
 <div class="relative w-80 h-56">
 
-  <!-- Tarjeta trasera blanca -->
+  <!-- Tarjeta trasera  -->
   <div
-    class="absolute top-0 left-24 w-64 h-40 rounded-3xl
+    class="absolute top-0 left-24 w-64 h-40 rounded-2xl
            bg-slate-200"
   />
 
-  <!-- Tarjeta trasera azul oscuro -->
+  <!-- Tarjeta intermedia -->
   <div
-    class="absolute top-4 left-12 w-64 h-40 rounded-3xl
+    class="absolute top-4 left-12 w-64 h-40 rounded-2xl
            bg-slate-400"
   />
 
   <!-- Tarjeta principal -->
   <div
-    class="absolute top-8 left-0 w-64 h-40 rounded-3xl
+    class="absolute top-8 left-0 w-64 h-40 rounded-2xl
            bg-blue-800"
   >
     <div class="p-5 flex flex-col h-full justify-between">
