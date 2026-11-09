@@ -1,47 +1,38 @@
 <template>
   <div
-    class="min-h-screen bg-gradient-to-b from-[#0B2A5B] to-[#06152e] flex justify-center"
+    class="w-full min-h-screen flex justify-center"
   >
     <!-- Simulación de pantalla móvil -->
     <main
-      class="
-        w-full
-        max-w-md
+      class="w-full
+        max-w-80
         min-h-screen
         flex
         flex-col
         justify-center
         items-center
-        px-[8%]
-        text-white
-      "
+        text-white"
     >
       <!-- Logo -->
       <div
-        class="
-          w-[28%]
-          max-w-[110px]
+        class="w-30
           aspect-square
-          rounded-[24%]
-          bg-[#005EFF]
+          rounded-3xl
+          bg-blue-600
           flex
           items-center
-          justify-center
-          shadow-2xl
-        "
+          justify-center"
       >
-        <span class="text-2xl">logo</span>
+        <span class="text-4xl">🛒</span>
       </div>
 
       <!-- Título -->
       <h1
-        class="
-          mt-8
+        class="mt-8
           text-center
           text-4xl
           font-bold
-          tracking-wide
-        "
+          tracking-wide"
       >
         UniShop Wallet
       </h1>
@@ -56,20 +47,35 @@
 
   <!-- Tarjeta trasera  -->
   <div
-    class="absolute top-0 left-24 w-64 h-40 rounded-2xl
-           bg-slate-200"
+    class="absolute
+      top-0
+      left-24
+      w-64
+      h-40
+      rounded-2xl
+      bg-slate-200"
   />
 
   <!-- Tarjeta intermedia -->
   <div
-    class="absolute top-4 left-12 w-64 h-40 rounded-2xl
-           bg-slate-400"
+    class="absolute
+    top-4
+    left-12
+    w-64
+    h-40
+    rounded-2xl
+    bg-slate-400"
   />
 
   <!-- Tarjeta principal -->
   <div
-    class="absolute top-8 left-0 w-64 h-40 rounded-2xl
-           bg-blue-800"
+    class="absolute
+    top-8
+    left-0
+    w-64
+    h-40
+    rounded-2xl
+    bg-blue-800"
   >
     <div class="p-5 flex flex-col h-full justify-between">
 
@@ -85,7 +91,6 @@
           <div class="h-2 w-40 bg-white/30 rounded-full"></div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -95,16 +100,16 @@
 
         <RouterLink
           to="/login"
-          class="
-            w-full
+          class="w-full
             py-4
             rounded-2xl
-            bg-[#005EFF]
+            bg-blue-600
             text-center
             font-semibold
             shadow-lg
             hover:bg-blue-700
             transition
+            border-slate-400 border-4
           "
         >
           Iniciar sesión
@@ -112,22 +117,17 @@
 
         <RouterLink
           to="/register"
-          class="
-            w-full
+          class="w-full
             py-4
             rounded-2xl
-            border
-            border-[#C0C6D4]
             text-center
             hover:bg-white/10
-            transition
-          "
+            border-slate-400
+            border-4"
         >
           Registrarse
         </RouterLink>
-
       </div>
-
     </main>
   </div>
 </template>
